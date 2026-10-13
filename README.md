@@ -82,6 +82,8 @@ name: My U1
 
 With a Discord webhook, U1_notify sends Discord embeds laid out like [FlashForgeUI](https://github.com/Parallel-7/FlashForgeUI-Electron)'s instead of plain text: a colored card with the status, the active toolhead's nozzle temperature and the bed temperature, and while printing a progress bar, print time, ETA, layer and file name, with the camera photo inside the card. A finished print gets a "✅ Print Complete!" card with the total time. Your own `_NOTIFY` text, a runout warning or "Printer on" appears at the top of the card.
 
+<img src="docs/discord-card.png" alt="U1_notify Discord card while printing: status, T1 nozzle and bed temperatures, progress bar at 26%, print time, ETA, layer 22 of 135, file name and camera photo" width="480">
+
 The layer comes from the slicer (OrcaSlicer's U1 profile sends `SET_PRINT_STATS_INFO`) or, failing that, from the nozzle height. The ETA uses the slicer's time estimate and shows in each reader's own time zone. If Discord rejects an embed, the message is sent as plain text instead. To always get plain text, add this to `u1_notify_custom.cfg` and restart Moonraker:
 
 ```ini
