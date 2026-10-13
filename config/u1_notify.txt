@@ -1,0 +1,14 @@
+# U1_notify settings
+# Fill in url and name, save, then run UPDATE_NOTIFY in the Mainsail or
+# Fluidd console. Leave the url: line in place even if you aren't using
+# Telegram.
+#
+# url:  where to send notifications, as an Apprise URL. Telegram is
+#       tgram://<bot token>/<chat ID>; a Discord webhook URL can be pasted
+#       as is; every other service is listed at
+#       https://github.com/caronc/apprise/wiki
+# name: the printer's name, put at the start of each message
+
+[notify]
+url: tgram://{bottoken}/{ChatID}
+name: {printer_name}
