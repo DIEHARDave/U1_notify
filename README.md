@@ -1,5 +1,7 @@
 # U1_notify
 
+> **Parts:** the printers, boards, readers and other gear that go with this project are listed at [projects.die-hard.net/gear](https://projects.die-hard.net/gear) (Amazon affiliate links).
+
 Print notifications for the **Snapmaker U1** running [paxx12's Extended Firmware](https://github.com/paxx12-snapmaker-u1/SnapmakerU1-Extended-Firmware), sent to Telegram, Discord, Matrix, ntfy, e-mail or any of the [100+ services Apprise supports](https://github.com/caronc/apprise/wiki), with a camera photo attached.
 
 It's a port of ghzserg's [notify plugin for Zmod](https://github.com/ghzserg/notify) (Flashforge AD5X/AD5M), by way of [FLSUN_notify](https://github.com/DIEHARDave/FLSUN_notify). The macros, switches and settings file work the same way, so Zmod's instructions apply here too. It uses the notifier and Apprise already built into the Extended Firmware's Moonraker, so it doesn't need an external server or bot.
