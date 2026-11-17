@@ -1,5 +1,10 @@
 # U1_notify
 
+> [!IMPORTANT]
+> **This project is archived and no longer maintained.** Use [**pushraker**](https://github.com/noon92/pushraker) instead. It's an amazing add-on: push notifications for the U1 (and any Klipper printer) with camera snapshots, model previews and spool pictures, progress, first layer, faults, filament and Spoolman events, editable templates, and its own live settings page with no restarts. It grew out of the U1 Extended Firmware's built-in Push Notifications, so on the U1 it may already be there.
+>
+> To remove U1_notify first, run as root on the printer: `bash /home/lava/printer_data/U1_notify/uninstall.sh`
+
 > **Parts:** the printers, boards, readers and other gear that go with this project are listed at [projects.die-hard.net/gear](https://projects.die-hard.net/gear) (Amazon affiliate links).
 
 Print notifications for the **Snapmaker U1** running [paxx12's Extended Firmware](https://github.com/paxx12-snapmaker-u1/SnapmakerU1-Extended-Firmware), sent to Telegram, Discord, Matrix, ntfy, e-mail or any of the [100+ services Apprise supports](https://github.com/caronc/apprise/wiki), with a camera photo attached.
